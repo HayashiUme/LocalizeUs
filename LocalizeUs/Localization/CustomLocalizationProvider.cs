@@ -15,7 +15,7 @@ public class CustomLocalizationProvider : LocalizationProvider
     {
         if ((int)stringName >= 0)
         {
-            var localeText = CustomLocale.GetParsed(stringName);
+            var localeText = CustomLocale.GetParsed(stringName.ToString());
             if (!localeText.Contains("STRMISS"))
             {
                 result = localeText;

@@ -1,3 +1,4 @@
+using System.Text;
 using AmongUs.Data;
 using AmongUs.Data.Settings;
 using HarmonyLib;
@@ -17,8 +18,18 @@ public static class TranslationControllerRegisterPatch
         var polish = ScriptableObject.CreateInstance<TranslatedImageSet>();
         polish.Name = "Polski";
         polish.languageID = (SupportedLangs)ExtendedLangs.Polish;
-        polish.Data = englishData.Data;
+        /*Error($"English/Polish Data: {polish.Data.text}");*/
+        var builder = new StringBuilder();
+        builder.Append("KEY ID\tPolish");
+        foreach (var pair in CustomLocale.CustomLocalization[ExtendedLangs.Polish])
+        {
+            builder.Append($"\n{pair.Key}\t{pair.Value}");
+        }
+
+        var newPolskiData = new TextAsset(builder.ToString());
+        polish.Data = newPolskiData;
         polish.CensorSet = englishData.CensorSet;
+        /*Error($"English/Polish CensorSet: {polish.CensorSet.text}");*/
         dataManager.Add(polish);
     }
     [HarmonyPatch(typeof(TranslationController), nameof(TranslationController.SetLanguage))]

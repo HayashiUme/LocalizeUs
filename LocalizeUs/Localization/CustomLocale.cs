@@ -67,11 +67,11 @@ public static class CustomLocale
     };
 
     // Language, Xml Name, then Value
-    public static Dictionary<ExtendedLangs, Dictionary<StringNames, string>> CustomLocalization { get; } = [];
+    public static Dictionary<ExtendedLangs, Dictionary<string, string>> CustomLocalization { get; } = [];
 
     internal static ManualLogSource Logger { get; } = BepInEx.Logging.Logger.CreateLogSource("CustomLocale");
 
-    public static string Get(StringNames name, string? defaultValue = null)
+    public static string Get(string name, string? defaultValue = null)
     {
         var currentLanguage =
             TranslationController.InstanceExists
@@ -80,7 +80,7 @@ public static class CustomLocale
         return Get(HelperUtils.ToCustom(currentLanguage), name, defaultValue);
     }
 
-    public static string Get(ExtendedLangs language, StringNames name, string? defaultValue = null)
+    public static string Get(ExtendedLangs language, string name, string? defaultValue = null)
     {
         if (CustomLocalization.TryGetValue(language, out var translations) &&
             translations.TryGetValue(name, out var translation))
@@ -96,7 +96,7 @@ public static class CustomLocale
 
         return defaultValue ?? "STRMISS_" + name;
     }
-    public static string GetParsed(StringNames name, string? defaultValue = null,
+    public static string GetParsed(string name, string? defaultValue = null,
         Dictionary<string, string>? parseList = null)
     {
         var currentLanguage =
@@ -106,7 +106,7 @@ public static class CustomLocale
         return GetParsed(HelperUtils.ToCustom(currentLanguage), name, defaultValue, parseList);
     }
 
-    public static string GetParsed(ExtendedLangs language, StringNames name, string? defaultValue = null,
+    public static string GetParsed(ExtendedLangs language, string name, string? defaultValue = null,
         Dictionary<string, string>? parseList = null)
     {
         var text = defaultValue ?? "STRMISS_" + name;
@@ -232,21 +232,13 @@ public static class CustomLocale
                         string name = node.Attributes["name"]!.Value;
                         string value = node.InnerText;
                         
-                        if (Enum.TryParse<StringNames>(name, out var realStringName))
+                        if (CustomLocalization[language].ContainsKey(name))
                         {
-                            if (CustomLocalization[language].ContainsKey(realStringName))
-                            {
-                                var ogValuePair = CustomLocalization[language].FirstOrDefault(x => x.Key == realStringName);
-                                CustomLocalization[language].Remove(ogValuePair.Key);
-                            }
+                            var ogValuePair = CustomLocalization[language].FirstOrDefault(x => x.Key == name);
+                            CustomLocalization[language].Remove(ogValuePair.Key);
+                        }
 
-                            CustomLocalization[language].TryAdd(realStringName, value);
-                        }
-                        else
-                        {
-                            Logger.LogError(
-                                $"{name} is not a stringname! Value: {value}");
-                        }
+                        CustomLocalization[language].TryAdd(name, value);
                     }
                 }
 
