@@ -1,5 +1,5 @@
 > [!NOTE]
-> This repo is still under constant development, expect bugs.
+> This repo is still under active development, and is only public for contributions prior to the initial release.
 
 -----------------------
 
