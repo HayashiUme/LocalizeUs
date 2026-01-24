@@ -503,4 +503,17 @@
   <string name="ChatRateLimit">Za szybko. Zaczekaj {0} sekund</string>
   <string name="Tasks">Zadania</string>
   <string name="StatsTitle">Statystyk</string>
+  <string name="MedscanCompleted">Skanowanie zakończone!</string>
+  <string name="ErrorNotFoundGame">Nie znaleziono gry której szukasz.</string>
+  <string name="ErrorInactivity">Serwer zastopował tą grę. Najprawdopodobniej przez nieaktywność.</string>
+  <string name="MenuNavigate">Nawiguj</string>
+  <string name="NsoError">Nie połączono z siecią.</string>
+  <string name="ErrorIntentionalLeaving">Nie możesz dołączyć do następnej gry przez kolejne {0} minut przez celowe rozłączenie.</string>
+  <string name="ErrorBanned">Zostałeś zbanowany z {0}.\%nl\%\%nl\%Nie możesz powrócić do tego lobby.</string>
+  <string name="ErrorKicked">Zostałeś wyrzucony z {0}.\%nl\%\%nl\%Możesz powrócić jeżeli gra się nie zaczęła.</string>
+  <string name="ErrorBannedNoCode">Zostałeś zbanowany z lobby. \%nl\%\%nl\%Nie możesz powrócić do tego lobby.</string>
+  <string name="ErrorKickedNoCode">Zostałeś wyrzucony z lobby. \%nl\%\%nl\%Możesz powrócić jeżeli gra się nie zaczęła.</string>
+  <string name="ErrorFullGame">Gra do której próbujesz dołączyć jest pełna.\%nl\%\%nl\%Skontaktuj się z hostem czy możesz dołączyć w następnej rundzie.</string>
+  <string name="ErrorStartedGame">Gra do której próbujesz dołączyć już się zaczęła.\%nl\%\%nl\%Skontaktuj się z hostem czy możesz dołączyć w następnej rundzie.</string>
+  <string name="ErrorHacking">Zostałeś zbanowany za hakowanie.\%nl\%\%nl\%Proszę przestań.</string>
 </resources>
