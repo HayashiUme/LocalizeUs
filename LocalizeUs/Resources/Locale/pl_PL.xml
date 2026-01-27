@@ -946,4 +946,13 @@
   <string name="ReadingLabel">ODCZYT</string>
   <string name="WeatherDataDownload">POBIERZ DANE POGODY</string>
   <string name="PetAlien1">Zestaw kosmo-pupili</string>
+  <string name="ComePlayDiscord">Dawaj, zagrajmy w Among us!</string>
+  <string name="YouAreNotOnline">Nie jesteś online.</string>
+  <string name="NoDeadBodiesFound">Nie Znaleziono Ciał</string>
+  <string name="CrossPlayTitle">Crossplay</string>
+  <string name="CrossPlayAllPlatforms">Wszystkie Platformy</string>
+  <string name="CrossPlaySamePlatform">Ta Sama Platforma</string>
+  <string name="RetryText">Zaczekaj chwilę dłużej</string>
+  <string name="Continue">Kontynuuj</string>
+  <string name="GameComplete">Gra Ukończona</string>
 </resources>
