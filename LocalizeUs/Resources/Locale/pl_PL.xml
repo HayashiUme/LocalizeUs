@@ -91,8 +91,8 @@
   <string name="EnterIdCode">Wpisz Kod</string>
   <string name="BuyBeverage">Kup Napój</string>
   <string name="ProcessData">Przetwórz Dane</string>
-  <string name="NumImpostorsS">Pośród nas jest \%color=#FF1919FF\%1 Impostor\%/color\% .</string>
-  <string name="NumImpostorsP">Pośród nas jest \%color=#FF1919FF\%{0} Impostorów\%/color\%</string>
+  <string name="NumImpostorsS">Pośród nas jest \%color=#FF1919FF\%1 Intruz\%/color\% .</string>
+  <string name="NumImpostorsP">Pośród nas jest \%color=#FF1919FF\%{0} Intruzów\%/color\%</string>
   <!--Don't translate roles unless they are logical-->
     <string name="Crewmate">Załogant</string>
   <string name="Impostor">Intruz</string>
@@ -122,7 +122,7 @@
   <string name="ReactorHoldToStop">Przytrzymaj by zatrzymać eksplozję</string>
   <string name="ReactorWaiting">Oczekiwanie na drugiego operatora</string>
   <string name="ReactorNominal">Reaktor Stabilny</string>
-  <string name="MeetingWhoIsTitle">Kto może być Intruzem?</string>
+  <string name="MeetingWhoIsTitle">Kto jest Intruzem?</string>
   <string name="MeetingVotingBegins">Głosowanie zacznie się za: {0}s</string>
   <string name="MeetingVotingEnds">Głosowanie zakończy się za: {0}s</string>
   <string name="MeetingVotingResults">Wyniki Głosowania</string>
@@ -136,7 +136,7 @@
   <string name="HowToPlayText43">Chcesz więcej tasków? A może szybszą prędkość chodzenia? Więcej Intruzów? Jako host, możesz zmieniać te ustawienia. Jednak upewnij się, że odpowiadają innym graczom.</string>
   <string name="HowToPlayText44">Jeśli ktoś zachowuje się niegrzecznie i/lub spamuje, gospodarze mogą tymczasowo wyrzucić graczy w ramach ostrzeżenia lub zablokować im dostęp do konkretnego pokoju online.</string>
   <string name="HowToPlayTextMap">Każdy gracz ma dostęp do mapy, która ułatwia im poruszanie się po statku.</string>
-  <string name="HowToPlayTextCrew1">Cel: Wypełnicie Grupowy Pasek Zadań lub Zdemaskujcie Oszusta.</string>
+  <string name="HowToPlayTextCrew1">Cel: Wypełnicie Grupowy Pasek Zadań lub Zdemaskujcie Intruza.</string>
   <string name="HowToPlayTextCrew2">Wykonuj zadania aby uzupełnić pasek.</string>
   <string name="HowToPlayTextCrew3">Reaguj na sabotaże Intruzów.</string>
   <string name="HowToPlayTextCrew4">Zwołaj spotkanie gdy znajdziesz Intruza.</string>
@@ -306,7 +306,7 @@
   <string name="MedWT">WG:</string>
   <string name="MedETA">ETA {0}</string>
   <string name="MedHello">SIEMA!</string>
-  <string name="LobbySizeWarning">W Among Us'a da się grać w 4 osoby, ale powinno się grać w 5 lub więcej.\%nl\%\%nl\%Czteroosobowe gry będą kończyć się dosyć szybko i zazwyczaj impostorzy będą wygrywać.</string>
+  <string name="LobbySizeWarning">W Among Us można grać w 4 osoby, ale zalecane jest grać w 5 lub więcej.\%nl\%\%nl\%Czteroosobowe gry będą kończyć się dosyć szybko i zazwyczaj Intruzi będą wygrywać.</string>
   <string name="Okay">Okej</string>
   <string name="OkayDontShow">Ok, nie pokazuj więcej.</string>
   <string name="Nevermind">Nieważne</string>
@@ -316,7 +316,7 @@
   <string name="CamSouth">Południowa</string>
   <string name="CamSouthwest">Południowozachodnia</string>
   <string name="CamNorthwest">Południowowschodnia</string>
-  <string name="LoadingFailed">Loading Failed:</string>
+  <string name="LoadingFailed">Ładowanie nie powiodło się:</string>
   <string name="PetFailFetchData">Nie udało się przetworzyć danych o Petach</string>
   <string name="BadResult">ZŁY WYNIK</string>
   <string name="More">{0} WIĘCEJ</string>
@@ -553,8 +553,8 @@
   <string name="QCTagQuestionSingular">Pytanie</string>
   <string name="QCTagQuestion">Pytanie?</string>
   <string name="QCTagLobby">Lobby</string>
-  <string name="QCTagImpostor">Oszust</string>
-  <string name="QCSelfNotTheImpostor">Nie jestem Impostorem</string>
+  <string name="QCTagImpostor">Intruz</string>
+  <string name="QCSelfNotTheImpostor">Nie jestem Intruzem</string>
   <string name="QCTagMeeting">Spotkanie</string>
   <string name="QCTagHiding">Chowanie</string>
   <string name="QCTagFlashlight">Latarka</string>
@@ -774,7 +774,7 @@
   <string name="StatsImpostorKills">Zabicia Jako Intruz:		</string>
   <string name="StatsTimesMurdered">Ilość Twoich Śmierci:	</string>
   <string name="StatsTimesEjected">Ilość Twoich Wygłosowań:		</string>
-  <string name="StatsGamesImpostor">Ilość Gier Jako Oszust:	</string>
+  <string name="StatsGamesImpostor">Ilość Gier Jako Intruz:	</string>
   <string name="StatsGamesCrewmate">Ilość Gier Jako Załogant:	</string>
   <string name="StatsGamesStarted">Gry Zaczęte:	</string>
   <string name="StatsGamesFinished">Gry Ukończone:	</string>
@@ -832,15 +832,15 @@
   <string name="QCLobbyHNSFlashlightMode">Tryb z latarką?</string>
   <string name="QCLobbyHNSMoreCrewmateFlashlightSize">Większy rozmiar latarek załogantów?</string>
   <string name="QCLobbyHNSLessCrewmateFlashlightSize">Mniejszy rozmiar latarek załogantów?</string>
-  <string name="QCLobbyHNSMoreImpostorFlashlightSize">Większy rozmiar latarki Intruza?</string>
-  <string name="QCLobbyHNSLessImpostorFlashlightSize">Mniejszy rozmiar latarki Intruza?</string>
+  <string name="QCLobbyHNSMoreImpostorFlashlightSize">Większy rozmiar latarki Szukającego?</string>
+  <string name="QCLobbyHNSLessImpostorFlashlightSize">Mniejszy rozmiar latarki Szukającego?</string>
   <string name="QCLobbyHNSShowNames">Pokazuj nazwy?</string>
   <string name="QCLobbyHNSMoreVents">Więcej użyć wentów?</string>
   <string name="QCLobbyHNSLessVents">Mniej użyć wentów?</string>
   <string name="QCLobbyHNSMoreTimeInVent">Więcej czasu w wencie?</string>
   <string name="QCLobbyHNSLessTimeInVent">Mniej czasu w wencie?</string>
-  <string name="QCLobbyHNSMoreFinalHideImpostorSpeed">Większa prędkość Intruza podczas finalnego chowania?</string>
-  <string name="QCLobbyHNSLessFinalHideImpostorSpeed">Mniejsza prędkość Intruza podczas finalnego chowania?</string>
+  <string name="QCLobbyHNSMoreFinalHideImpostorSpeed">Większa prędkość Szukającego podczas finalnego chowania?</string>
+  <string name="QCLobbyHNSLessFinalHideImpostorSpeed">Mniejsza prędkość Szukającego podczas finalnego chowania?</string>
   <string name="QCLobbyHNSFinalHideSeekMap">Mapa finalnego chowania?</string>
   <string name="QCLobbyHNSFinalHidePings">Pingi finalnego chowania?</string>
   <string name="QCLobbyHNSMorePingInterval">Większa przerwa między pingami?</string>
@@ -1160,7 +1160,7 @@
   <string name="FinalEscapeTime">Czas Ostatecznego Chowanie się</string>
   <string name="SeekerFinalSpeed">Przyśpieszenie Szukającego Podczas Ostatecznego Czas Chowania</string>
   <string name="SeekerFinalMap">Mapa Szukającego Podczas Ostatecznego Czas Chowania</string>
-  <string name="SeekerPings"></string>
+  <string name="SeekerPings"/>
   <string name="TagFiltersTitle">Filtry</string>
   <string name="TagsFilteredSingular">{0} Tag Wymagany</string>
   <string name="TagsFilteredPlural">{0} Tagi Wymagane</string>
@@ -1270,4 +1270,50 @@
   <string name="Cosmetic.skin_PusheenPurpleskin">Liliowy Pusheen</string>
   <string name="Cosmetic.skin_Slothskin">Leniwiectwo</string>
   <string name="Cosmetic.hat_bearyCold">Zimno Misie Zrobiło</string>
+  <string name="FilterGameTooltip">Przefiltruj lobby przez tryby gry.</string>
+  <string name="FilterMapTooltip">Przefiltruj lobby przez jedną albo więcej map.</string>
+  <string name="FilterImpostorTooltip">Przefiltruj lobby przez ilość Intruzów.</string>
+  <string name="FilterRoleTooltip">Przefiltruj lobby według tego, czy są włączone rolę.</string>
+  <string name="FilterSpeedTooltip">Przefiltruj lobby przez prędkość graczy.</string>
+  <string name="FilterKillCDTooltip">Czas który Intruz musi przeczekać pomiędzy zabójstwami.</string>
+  <string name="FilterVotingTooltip">Czas który gracze mają na zagłosowanie podczas spotkania.</string>
+  <string name="FilterVisualTaskTooltip">Gdy Włączone, wszyscy gracze będą widzieć gdy niektóre zadania zostaną wykonane.</string>
+  <string name="FilterAnonVotesTooltip">Gdy Włączone, gracze nie będą widzieć kto zagłosował na kogo podczas spotkaniach .</string>
+  <string name="FilterConfirmEjectTooltip">Gdy Włączone, Załoga dowie się czy gracz wygłosowany podczas spotkania był Intruzem.</string>
+  <string name="FilterNone">Brak</string>
+  <string name="FilterCrossplayTooltip">Pokazuj lobby ze wszystkich platform, bądź tylko twojej.</string>
+  <string name="FilterDefaultTooltip">Zawęź poszukiwania swojej idealnej gry używając poniższych filtrów.</string>
+  <string name="FilterFlashlightTooltip">Gdy Włączone, gracze będą mieli latarkę, którą będą mogli sterować by spojrzeć tylko w jedną stronę zamiast normalnej wizji.</string>
+  <string name="FilterHidingTimeTooltip">Czas trwania pierwszej fazy Chowanego.</string>
+  <string name="FilterFinalTimeTooltip">Czas trwania ostatniej fazy Chowanego.</string>
+  <string name="FilterMaxVentTooltip">Ile razy Chowający mogą korzystać z wentów.</string>
+  <string name="ClearFilters">Wyczyść Wybrane Filtry</string>
+  <string name="MoreLabel">Więcej...</string>
+  <string name="FiltersActive">filtrów aktywnych</string>
+  <string name="ImpostorBlurb">Zabij i Sabotuj</string>
+  <string name="ConfirmSettingsTooltip">Tworzysz lobby z następującymi ustawieniami:</string>
+  <string name="EnterCodeElipsis">Wpisz kod...</string>
+  <string name="ConfirmSettings">Potwierdź Ustawienia</string>
+  <string name="ToolTipChatTab">Dostosuj ustawienia dla chatu w grze.</string>
+  <string name="DropshipsLabel">Gier online</string>
+  <string name="ToolTipSkeld">The Skeld: rozmiarowo średni statek z wieloma pomieszczeniami\%nl\%i korytarzami. Idealny do nauki podstaw.</string>
+  <string name="ToolTipMIRA">MIRA HQ: mały budynek z wieloma długimi korytarzami\%nl\% i w pełni połączonym systemem wentów.</string>
+  <string name="ToolTipPolus">Polus: średniego rozmiaru planetarna placówka \%nl\%z obszarami zewnętrznymi i wewnętrznymi.</string>
+  <string name="ToolTipAirship">The Airship: duży statek z toną różnych pomieszczeń w których możesz się schować\%nl\bądź zostać otoczonym przez Intruza.</string>
+  <string name="ToolTipFungle">The Fungle: wielka wyspa ze słoneczną plażą,\%nl\%tajemniczą dżunglą i wysokimi wzgórzami.</string>
+  <string name="HostNounEmpty">Host</string>
+  <string name="ToolTipLanguage">Język w którym odbędzie się dyskusja w grze.</string>
+  <string name="ToolTipNoCrossplay">Tylko gracze na tej samej platformie co ty mogą dołączyć.</string>
+  <string name="ToolTipDefault">Dostosuj swoje lobby używając poniższych ustawień.</string>
+  <string name="ToolTipClassic">Intruzi udają Załogantów!\%nl\%Dowiedz się kto jest podejrzany i wygłosuj go.</string>
+  <string name="ToolTipHide">Najlepsza gra w kotka i myszkę.\%nl\%Nie daj się złapać szukającemu!</string>
+  <string name="ToolTipCapacity">Maksymalna ilość graczy która może dołączyć do lobby.</string>
+  <string name="ToolTipServer">Region w którym chcesz stworzyć grę.</string>
+  <string name="ToolTipCrossplay">Gracze z każdej platformy będą mogli dołączyć.</string>
+  <string name="NoneLowercaseLabel">brak</string>
+  <string name="ServerLabel">Region</string>
+  <string name="JoinLobby">Dołącz Do Gry</string>
+  <string name="ChatLabel">Czat</string>
+  <string name="LoadingBarGameStart">Ładowanie Gry...</string>
+  <string name="LoadingBarGameStartWaitingPlayers">Oczekiwanie na innych graczy...</string>
 </resources>
