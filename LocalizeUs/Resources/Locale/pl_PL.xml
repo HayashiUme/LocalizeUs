@@ -821,7 +821,7 @@
   <string name="QCLobbyRoleGuardianAngels">Aniołowie Stróże?</string>
   <string name="QCLobbyRoleEngineers">Inżynierowie?</string>
   <string name="QCLobbyRoleShapeshifters">Zmiennokształtni?</string>
-  <string name="QCLobbyRoleNone">Wyłącz role</string>
+  <string name="QCLobbyRoleNone">Bez ról</string>
   <string name="QCResLess">Mniej</string>
   <string name="QCResMore">Więcej</string>
   <string name="QCResNone">Żadne</string>
