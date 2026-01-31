@@ -406,10 +406,10 @@
   <string name="November">Listopad</string>
   <string name="December">Grudzień</string>
   <string name="Submit">Prześlij</string>
-  <string name="ScientistRole">Scientist</string>
+  <string name="ScientistRole">Naukowiec</string>
   <string name="EngineerRole">Inżynier</string>
   <string name="GuardianAngelRole">Anioł Stróż</string>
-  <string name="ShapeshifterRole">Shapeshifter</string>
+  <string name="ShapeshifterRole">Zmiennokształtny</string>
   <string name="YourRoleIs">Twoja rola to</string>
   <string name="ShapeshiftAbility">Zmień Się</string>
   <string name="VitalsAbility">Vitalsy</string>
@@ -1316,4 +1316,13 @@
   <string name="ChatLabel">Czat</string>
   <string name="LoadingBarGameStart">Ładowanie Gry...</string>
   <string name="LoadingBarGameStartWaitingPlayers">Oczekiwanie na innych graczy...</string>
+  <string name="EngineerBlurb">Możesz korzystać z wentów</string>
+  <string name="GuardianAngelBlurb">Ochroń pozostałych Załogantów</string>
+  <string name="ShapeshifterBlurb">Przebierz się</string>
+  <string name="CrewmateBlurb">Wykonaj swoje zadania</string>
+  <string name="RolesHelp_CrewmateRole">Role Załogi: {0}</string>
+  <string name="RolesHelp_ImpostorRole">Role Intruzów: {0}</string>
+  <string name="RolesHelpIntro_01">Role dodają do gry zupełnie nowy poziom strategii i oszustw!</string>
+  <string name="RolesHelpIntro_02">Zarówno Załoganci jak i Intruzi mogą dostać losowe rolę, zależnie od ustawień gry wybranych przez hosta.</string>
+  <string name="RolesHelp_Scientist_01">Naukowiec ma dostęp do przenośnego panelu vitals, którego może użyć gdziekolwiek, aby sprawdzić kto z Załogi żyje, a kto nie.</string>
 </resources>
