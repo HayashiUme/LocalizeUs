@@ -91,7 +91,7 @@
   <string name="EnterIdCode">Wpisz Kod</string>
   <string name="BuyBeverage">Kup Napój</string>
   <string name="ProcessData">Przetwórz Dane</string>
-  <string name="NumImpostorsS">Pośród nas jest \%color=#FF1919FF\%1 Intruz\%/color\% .</string>
+  <string name="NumImpostorsS">Pośród nas jest \%color=#FF1919FF\%1 Intruz\%/color\%</string>
   <string name="NumImpostorsP">Pośród nas jest \%color=#FF1919FF\%{0} Intruzów\%/color\%</string>
   <!--Don't translate roles unless they are logical-->
     <string name="Crewmate">Załogant</string>
@@ -308,7 +308,7 @@
   <string name="MedHello">SIEMA!</string>
   <string name="LobbySizeWarning">W Among Us można grać w 4 osoby, ale zalecane jest grać w 5 lub więcej.\%nl\%\%nl\%Czteroosobowe gry będą kończyć się dosyć szybko i zazwyczaj Intruzi będą wygrywać.</string>
   <string name="Okay">Okej</string>
-  <string name="OkayDontShow">Ok, nie pokazuj więcej.</string>
+  <string name="OkayDontShow">Ok, nie pokazuj więcej</string>
   <string name="Nevermind">Nieważne</string>
   <string name="CamEast">Wschodnia</string>
   <string name="CamCentral">Centralna</string>
@@ -456,7 +456,7 @@
   <string name="GameSettingsLabel">Ustawienia Gry</string>
   <string name="RoleSettingsLabel">Ustawienia Ról</string>
   <string name="GamePresetsLabel">Presety Gry</string>
-  <string name="GamePresetsDescription">Zastosuj rekomendowane ustawienia do lobby</string>
+  <string name="GamePresetsDescription">Zastosuj rekomendowane ustawienia do lobby.</string>
   <string name="GamePresetsPopupTitle">Uwaga!</string>
   <string name="GamePresetsPopupText">Zmiany które wprowadziłeś do ustawień twojego lobby zostaną nadpisane przez wybrany preset!</string>
   <string name="GamePresetsPopupContinue">Kontynuj mimo wszystko</string>
@@ -860,9 +860,9 @@
   <string name="UserName">NAZWA UŻYTKOWNIKA</string>
   <string name="RandomizeName">Wylosuj nazwę</string>
   <string name="ChangeName">Zmień Nazwę</string>
-  <string name="GuardianWait">Poczekaj aż twój Opiekun Prawny udzieli ci pozwolenia by używać Wolnego Chatu i zmieniać nazwę</string>
+  <string name="GuardianWait">Poczekaj aż twój Opiekun Prawny udzieli ci pozwolenia by używać Wolnego Chatu i zmieniać nazwę.</string>
   <string name="EmailResend">Wyślij ponownie E-mail</string>
-  <string name="GuardianEmailSent">E-mail do opiekuna został wysłany.</string>
+  <string name="GuardianEmailSent">E-mail do opiekuna został wysłany</string>
   <string name="GuardianCheckEmail">Nie zapomnij aby twój opiekun sprawdził swój e-mail w celu odblokowania wszystkich funkcji gry</string>
   <string name="EditName">Zmień Nazwę</string>
   <string name="Name">Nazwa</string>
