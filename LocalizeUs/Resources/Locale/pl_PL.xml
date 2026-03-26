@@ -419,7 +419,7 @@
   <string name="DetectiveRole">Detektyw</string>
   <string name="DetectiveAbility">Przesłuchaj</string>
   <string name="DetectiveAbilityNotes">Notatki</string>
-  <string name="ViperRole"></string>
+  <string name="ViperRole"/>
   <string name="ViperAbility">Kwas</string>
   <!-- Will be displayed as "Inżynier Wskazówka", should be "Wskazówka dla roli Inżynier" instead-->
     <string name="RoleHint">Wskazówka</string>
@@ -981,7 +981,7 @@
   <string name="PSNErrorSessionGetInfoFailed">Nie uzyskano informacji o sesji gry</string>
   <string name="PSNErrorPSNConnectionLost">Utracono połączenie z PlayStation™Network</string>
   <string name="PSNErrorUserSignedOut">Użytkownik się wylogował</string>
-  <string name="TimeOutText">Trochę zajmjuje to logowanie. Kontynuować w trybie offline?</string>
+  <string name="TimeOutText">Logowanie trochę zajmuje. Chcesz kontynuować w trybie offline?</string>
   <string name="LevelShorthand">Poziom {0}</string>
   <string name="MaxLevel">Maksymalny poziom</string>
   <string name="Cosmetic.hat_AbominalHat">Abominalna głowa</string>
@@ -1497,4 +1497,6 @@
   <string name="Cosmetic.hat_bsb2_bowRed">Kokarda - Czerwona</string>
   <string name="Cosmetic.hat_bsb2_bowPink">Kokarda - Różowa</string>
   <string name="Cosmetic.hat_bday_cake">Kawałek Dobrego Ciasta</string>
+  <string name="SwitchEShopBrowseAll">Przeglądaj wszystkie przedmioty na Nintendo eShop</string>
+  <string name="CrossPlayEnabledWarning">Gra Międzyplatformowa Włączona: Możesz napotkać się na graczy z innych platform.</string>
 </resources>
