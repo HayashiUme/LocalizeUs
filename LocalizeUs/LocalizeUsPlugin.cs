@@ -8,7 +8,7 @@ using Reactor.Utilities;
 
 namespace LocalizeUs;
 
-[BepInAutoPlugin("auavengers.localizeus", "Localize Us!")]
+[BepInAutoPlugin("auavengers.localize.us", "Localize Us!")]
 [BepInDependency(ReactorPlugin.Id)]
 public sealed partial class LocalizeUsPlugin : BasePlugin
 {
