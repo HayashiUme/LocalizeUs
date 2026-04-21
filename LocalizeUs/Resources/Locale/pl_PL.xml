@@ -1501,4 +1501,24 @@
   <string name="CrossPlayEnabledWarning">Gra Międzyplatformowa Włączona: Możesz napotkać się na graczy z innych platform.</string>
   <string name="QCResYeetCrew">{0} leci</string>
   <string name="LogInInfoTextSwitch">Jeżeli zarejestrujesz się do pełnego konta, możesz zawsze zalogować się później. Jeżeli nie masz konta, stworzy się ono automatycznie.</string>
+  <string name="QCLobbyRolePhantoms">Fantomy?</string>
+  <string name="PhantomAbility">Zniknij</string>
+  <string name="PhantomAbilityUndo">Pojaw się</string>
+  <string name="PhantomRole">Fantom</string>
+  <string name="PhantomBlurb">Stań się niewidzialny</string>
+  <string name="PhantomBlurbMed">Stań się niewidzialny aby zakraść się gdzieś lub uciec od ciała.</string>
+  <string name="PhantomBlurbLong">Fantom może stać się niewidzialny aby zakraść się na załoganta lub uciec z miejsca zbrodni bez zostania przyłapanym. Nie może zabijać gdy nie jest widzialny, lecz wciąż może używać drabin i tyrolki. Znikanie i pojawianie się utwarza dużą chmurę dymu więc upewnij się że nie ma załogantów w pobliżu! Niewidzialność nie trwa też wiecznie więc używaj jej z odpowiedzialnością.</string>
+  <string name="PhantomCooldown">Cooldown zniknięcia</string>
+  <string name="PhantomDuration">Czas trwania zniknięcia</string>
+  <string name="RolesHelp_Phantom_01">Fantom może stać się niewidzialny aby zakraść się na załoganta lub uciec z miejsca zbrodni bez zostania przyłapanym. Nie może zabijać gdy nie jest widzialny, lecz wciąż może używać drabin i tyrolki.</string>
+  <string name="RolesHelp_Phantom_02">Znikanie i pojawianie się utwarza dużą chmurę dymu więc upewnij się że nie ma załogantów w pobliżu! Niewidzialność nie trwa też wiecznie więc używaj jej z odpowiedzialnością.</string>
+  <string name="RolesHelp_Shapeshifter_01">Zmiennokształtny może zmienić swój wygląd i przebrać się za innych graczy. Zrób to dobrze aby wrobić załogantów i stworzyć zamieszanie o to kto jest prawdziwym intruzem!</string>
+  <string name="RolesHelp_Shapeshifter_02">Lecz uważaj - przebranie nie trwa wiecznie i zostaje po nim ślad.</string>
+  <string name="RolesHelpOutro_01">Role są konfigurowalne! Host może ustawiać cooldown wentowania inżyniera, przebrania zmiennokształtnego, itp. Mogą także wybierać szansę na to że dana rola pojawi się w grze. Możesz zawsze zobaczyć w ustawieniach lobby czy dana rola jest włączona!</string>
+  <string name="ShapeshifterBlurbMed">Przebierz się zamieniając się w innych graczy.</string>
+  <string name="ShapeshifterBlurbLong">Zmiennokształtny może zmienić swój wygląd i przebrać się za innych graczy. Zrób to dobrze aby wrobić załogantów i stworzyć zamieszanie o to kto jest prawdziwym intruzem. Lecz uważaj - przebranie nie trwa wiecznie i zostaje po nim ślad.</string>
+  <string name="ShapeshifterCooldown">Cooldown przebrania się</string>
+  <string name="ShapeshifterDuration">Czas trwania przebrania</string>
+  <string name="ShapeshifterLeaveSkin">Pozostaw ślad po przebraniu</string>
+  <string name="QCStaShapeshifterSkin">Skórę zmiennokształtnego znaleziono w {0}</string>
 </resources>
