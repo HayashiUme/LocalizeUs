@@ -98,7 +98,7 @@
   <string name="Impostor">Intruz</string>
   <string name="Victory">Zwycięstwo</string>
   <string name="Defeat">Porażka</string>
-  <string name="CrewmatesDisconnected">Większość Załogantów\%nl\%Wyszła z Gry</string>
+  <string name="CrewmatesDisconnected">Większość Załogi\%nl\%Wyszła z Gry</string>
   <string name="ImpostorDisconnected">Intruzi Wyszli z Gry</string>
   <string name="PickAnomaly">Wybierz Anomalię</string>
   <string name="WaterPlantsGetCan">Weź konewkę!</string>
@@ -171,7 +171,7 @@
     <string name="SettingsJoystickMode">Joystick</string>
   <string name="SettingsKeyboardMode">Myszka+Klawiatura</string>
   <string name="SettingsFullscreen">Pełny Ekran</string>
-  <string name="SettingsVSync">VSync</string>
+  <string name="SettingsVSync">Synchronizacja Pionowa</string>
   <string name="SettingsResolution">Rozdzielczość</string>
   <string name="SettingsApply">Zastosuj</string>
   <string name="SettingsPersonalizeAds">Spersonalizowane Reklamy</string>
@@ -184,7 +184,7 @@
   <string name="MatchImpostors">Intruzi</string>
   <string name="MatchMaxPlayers">Maks. Graczy</string>
   <string name="Cancel">Cofnij</string>
-  <string name="Confirm">Zastosuj</string>
+  <string name="Confirm">Potwierdź</string>
   <string name="PlayerColor">Kolor</string>
   <string name="PlayerHat">Czapka</string>
   <string name="PlayerSkin">Kostium</string>
@@ -440,7 +440,7 @@
   <string name="SettingsLabel">Ustawienia</string>
   <string name="NewsLabel">Ogłoszenia</string>
   <string name="AccountLabel">Mój Profil</string>
-  <string name="CreditsLabel">Uznanie</string>
+  <string name="CreditsLabel">Twórcy Gry</string>
   <string name="ShopLabel">Sklep</string>
   <string name="InventoryLabel">Ekwipunek</string>
   <string name="StatsLabel">Statystyki</string>
@@ -1526,4 +1526,8 @@
   <string name="QCVipers">Żmije?</string>
   <string name="RolesHelp_Detective_01">Detektyw jest załogantem rozwiązującym zabójstwa! Za pomocą notatek, może wywnioskować ważne detale o każdym zabójstwie.</string>
   <string name="RolesHelp_Detective_02">Detektyw może wtedy przesłuchać innych załogantów aby się dowiedzieć gdzie byli podczas zabójstwa. Połącz kropki i znajdź zabójcę!</string>
+  <string name="MouseMovement">Poruszanie Się Myszką</string>
+  <string name="KeyboardOptions">Opcje Klawiatury</string>
+  <string name="RemapBindings">Zmień Przypisane Klawisze...</string>
+  <string name="KeyboardBindingsHeader">Skróty Klawiszowe</string>
 </resources>
