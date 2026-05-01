@@ -386,8 +386,8 @@
   <string name="MapNameFungle">Fungle</string>
   <string name="ChatType">Typ Czatu</string>
   <string name="QuickChatOnly">Tylko Szybki Czat</string>
-  <string name="FreeChatOnly">Tylko Normalny Czat</string>
-  <string name="FreeOrQuickChat">Normalny Czat</string>
+  <string name="FreeChatOnly">Tylko Zwykły Czat</string>
+  <string name="FreeOrQuickChat">Zwykły Czat</string>
   <string name="DateOfBirth">Data Urodzenia</string>
   <string name="DateOfBirthEnter">Proszę wpisać swoją datę urodzenia:</string>
   <string name="Month">Miesiąc</string>
@@ -860,13 +860,13 @@
   <string name="UserName">NAZWA UŻYTKOWNIKA</string>
   <string name="RandomizeName">Wylosuj nazwę</string>
   <string name="ChangeName">Zmień Nazwę</string>
-  <string name="GuardianWait">Poczekaj aż twój Opiekun Prawny udzieli ci pozwolenia by używać Wolnego Chatu i zmieniać nazwę.</string>
+  <string name="GuardianWait">Poczekaj aż twój Opiekun Prawny udzieli ci pozwolenia by używać Zwykłego Czatu i zmieniać nazwę.</string>
   <string name="EmailResend">Wyślij ponownie E-mail</string>
   <string name="GuardianEmailSent">E-mail do opiekuna został wysłany</string>
   <string name="GuardianCheckEmail">Nie zapomnij aby twój opiekun sprawdził swój e-mail w celu odblokowania wszystkich funkcji gry</string>
   <string name="EditName">Zmień Nazwę</string>
   <string name="Name">Nazwa</string>
-  <string name="NeedPermissionText">Musimy zapytać się (poprzez e-mail) twojego opiekuna o zgodę na kontynuację. Jeżeli się zgodzi, będziesz mógł używać wolnego czatu online oraz zmienić nazwę użytkownika. Poproś dorosłego o pomoc!</string>
+  <string name="NeedPermissionText">Musimy zapytać się (poprzez e-mail) twojego opiekuna o zgodę na kontynuację. Jeżeli się zgodzi, będziesz mógł używać zwykłego czatu online oraz zmienić nazwę użytkownika. Poproś dorosłego o pomoc!</string>
   <string name="GuardianEmail">[e-mail twojego opiekuna]</string>
   <string name="ReportBadName">Nieodpowiednia Nazwa</string>
   <string name="ReportBadChat">Nieodpowiednie wiadomości</string>
@@ -1582,4 +1582,12 @@
   <string name="Roles">Role</string>
   <string name="RolesSettings">Ustawienia Ról</string>
   <string name="QCRoles">Role</string>
+  <string name="FreeChatWarning">Musisz być zalogowany aby móc użyć Zwykłego Czatu. Jeżeli jesteś zalogowany na koncie nieletniego, przejdź do zakładki konta i otrzymaj zgodę od opiekuna aby dostać dostęp do Zwykłego Czatu.</string>
+  <string name="FriendsListPermissionsWarning">Potrzebujesz zgody opiekuna aby móc użyć tej funkcji.</string>
+  <string name="FriendsListEmailSent">Wysłaliśmy do twojego rodzica bądź opiekuna email z prośbą o dodatkowe uprawnienia do listy znajomych. Daj im znać aby sprawdzili emaila.</string>
+  <string name="KwsCreateFail">O nie! Coś poszło nie tak przy wysyłaniu prośbę o zgodę do opiekuna. Proszę spróbuj ponownie lub kontynuuj w trybie offline.\%nl\%\%nl\%Spróbować ponownie?</string>
+  <string name="MissingGuardianEmailText">Twoje konto nie posiada emailu opiekuna. Musimy spytać się go o zgodę (poprzez e-mail) aby kontynuować. Jeżeli się zgodzi, będziesz mógł używać zwykłego czatu oraz zmieniać swoją nazwę. Zapytaj dorosłego aby ci w tym pomógł!</string>
+  <string name="XboxCommsJoinError">Ustawienia komunikacji twojego konta uniemożliwiają Ci dołączenia do gier online.</string>
+  <string name="XboxCommsSearchError">Ustawienia komunikacji twojego konta uniemożliwiają Ci szukanie gier online.</string>
+  <string name="FreeChatInfo">Będziesz mógł używać Zwykłego Czatu i Szybkiego Czatu podczas grania, grając jedynie z graczami posiadającymi Zwykły Czat.</string>
 </resources>
