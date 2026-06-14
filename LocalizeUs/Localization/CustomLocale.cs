@@ -34,6 +34,7 @@ public static class CustomLocale
         { ExtendedLangs.Swedish, "sv_SE.xml" }, // Custom
         { ExtendedLangs.Lithuanian, "lt_LT.xml" }, // Custom
         { ExtendedLangs.Czech, "cs_CZ.xml" }, // Custom
+        { ExtendedLangs.LiteraryChinese, "lzh_CN.xml" }, // Custom
     };
     public static Dictionary<ExtendedLangs, string> LangListExternal { get; } = new()
     {
@@ -58,6 +59,7 @@ public static class CustomLocale
         { ExtendedLangs.Swedish, "LU_sv_SE.xml" }, // Custom
         { ExtendedLangs.Lithuanian, "LU_lt_LT.xml" }, // Custom
         { ExtendedLangs.Czech, "LU_cs_CZ.xml" }, // Custom
+        { ExtendedLangs.LiteraryChinese, "lzh_CN.xml" }, // Custom
     };
     public static Dictionary<ExtendedLangs, string> LangCultureList { get; } = new()
     {
@@ -82,6 +84,32 @@ public static class CustomLocale
         { ExtendedLangs.Swedish, "sv-SE" }, // Custom
         { ExtendedLangs.Lithuanian, "lt-LT" }, // Custom
         { ExtendedLangs.Czech, "cs-CZ" }, // Custom
+        { ExtendedLangs.LiteraryChinese, "zh-TW" }, // Custom (Literary Chinese uses traditional characters)
+    };
+    public static Dictionary<ExtendedLangs, string> LangCodesList { get; } = new()
+    {
+        { ExtendedLangs.English, "en" },
+        { ExtendedLangs.Latam, "es" },
+        { ExtendedLangs.Brazilian, "pt" },
+        { ExtendedLangs.Portuguese, "pt" },
+        { ExtendedLangs.Korean, "ko" },
+        { ExtendedLangs.Russian, "ru" },
+        { ExtendedLangs.Dutch, "nl" },
+        { ExtendedLangs.Filipino, "fil" },
+        { ExtendedLangs.French, "fr" },
+        { ExtendedLangs.German, "de" },
+        { ExtendedLangs.Italian, "it" },
+        { ExtendedLangs.Japanese, "ja" },
+        { ExtendedLangs.Spanish, "es" },
+        { ExtendedLangs.SChinese, "zh" },
+        { ExtendedLangs.TChinese, "zh" },
+        { ExtendedLangs.Irish, "ga" },
+        { ExtendedLangs.Polish, "pl" }, // Custom
+        { ExtendedLangs.Turkish, "tr" }, // Custom
+        { ExtendedLangs.Swedish, "sv" }, // Custom
+        { ExtendedLangs.Lithuanian, "lt" }, // Custom
+        { ExtendedLangs.Czech, "cs" }, // Custom
+        { ExtendedLangs.LiteraryChinese, "lzh" }, // Custom
     };
 
     public static string BepinexLocaleDirectory =>

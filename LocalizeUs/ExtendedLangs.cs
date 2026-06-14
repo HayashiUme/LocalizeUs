@@ -23,4 +23,5 @@ public enum ExtendedLangs
     Swedish,
     Lithuanian,
     Czech,
+    LiteraryChinese,
 }
