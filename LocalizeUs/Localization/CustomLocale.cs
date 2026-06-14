@@ -121,7 +121,7 @@ public static class CustomLocale
 
     public static Dictionary<string, string> TmpTextList { get; } = new()
     {
-        { "<nl>", "\n" },
+        { "<nl>", "\\n" },
         { "<and>", "&" },
     };
 

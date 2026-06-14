@@ -1175,7 +1175,7 @@
   </string>
   <string name="HideSeekHowToPlayCaptionTwo">Chowający!</string>
   <string name="HideSeekHowToPlayCaptionThree">Szukający!</string>
-  <string name="HideSeekHowToPlayPageOne">\%color=#38F25D\%\%b\%Chowający:\%/b\%\%color\% Ukończ zadania aby skrócić pozostały czas, unikaj Szukającego i przetrwaj do końca aby wygrać.\%nl\%\%nl\%\%color=#FF3131&gt;\%b\%Szukający:\%/b\%\%color\% Znajdź Chowających i zabij ich wszystkich.</string>
+  <string name="HideSeekHowToPlayPageOne">\%color=#38F25D\%\%b\%Chowający:\%/b\%\%/color\% Ukończ zadania aby skrócić pozostały czas, unikaj Szukającego i przetrwaj do końca aby wygrać.\%nl\%\%nl\%\%color=#FF3131\%\%b\%Szukający:\%/b\%\%/color\% Znajdź Chowających i zabij ich wszystkich.</string>
   <string name="HideSeekHowToPlaySubtextOne">Nie ma tu żadnej dedukcji, są tylko przerażone krzyki.</string>
   <string name="HideSeekHowToPlayCrewmateInfoOne">Wyćwiczy swoje umiejętności chowania i skradania się aby przetrwać.</string>
   <string name="HideSeekHowToPlayCrewmateInfoTwo">W tym trybie możesz korzystać z wentów, żeby tymczasowo się ukryć oraz paska zagrożenia który powiadomi cię gdy Szukający zbliży się do ciebie. Szukający ma ograniczoną wizję, więc użyj tego, wentów oraz paska zagrożenia aby sprawnie się schować i przeżyć!</string>
