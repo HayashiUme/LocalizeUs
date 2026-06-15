@@ -1,9 +1,6 @@
-using System.Globalization;
-using System.Text;
 using Il2CppInterop.Runtime.InteropTypes.Arrays;
 using Reactor.Localization;
 using Reactor.Utilities;
-using UnityEngine;
 
 namespace LocalizeUs.Localization;
 
