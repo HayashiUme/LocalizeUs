@@ -28,10 +28,10 @@ public sealed partial class LocalizeUsPlugin : BasePlugin
     {
         EnumInjector.InjectEnumValues<StringNames>(new Dictionary<string, object>
         {
-            { "LangPolish", 2860 }, { "LangTurkish", 2861 }, { "LangSwedish", 2862 }, { "LangLithuanian", 2863 },
-            { "LangCzech", 2864 },
-            { "LangLiteraryChinese", 2865 },
-            { "LangGreek", 2866 }
+            { "LangPolish", 10000 }, { "LangTurkish", 10001 }, { "LangSwedish", 10002 }, { "LangLithuanian", 10003 },
+            { "LangCzech", 10004 },
+            { "LangLiteraryChinese", 10005 },
+            { "LangGreek", 10006 }
         });
         EnumInjector.InjectEnumValues<SupportedLangs>(new Dictionary<string, object>
         {

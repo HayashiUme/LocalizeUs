@@ -30,14 +30,14 @@
 <string name="ImpostorsRemainP">{0} Impostors remain.</string>
 <string name="Hallway">Hallway</string>
 <string name="Engines">Engines</string>
-<string name="LangCzech">Upper Engine</string>
+<string name="UpperEngine">Upper Engine</string>
 <string name="Cafeteria">Cafeteria</string>
 <string name="Weapons">Weapons</string>
 <string name="Reactor">Reactor</string>
 <string name="Security">Security</string>
 <string name="MedBay">MedBay</string>
 <string name="LifeSupp">O2</string>
-<string name="LangGreek">Navigation</string>
+<string name="Nav">Navigation</string>
 <string name="LowerEngine">Lower Engine</string>
 <string name="Electrical">Electrical</string>
 <string name="Admin">Admin</string>
