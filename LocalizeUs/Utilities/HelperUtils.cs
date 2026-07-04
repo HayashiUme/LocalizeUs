@@ -23,4 +23,12 @@ public static class HelperUtils
     {
         return (SupportedLangs)lang;
     }
+    public static bool IsCustomLanguage(ExtendedLangs lang)
+    {
+        return (int)lang >= 16;
+    }
+    public static bool IsCustomLanguage(int langIndex)
+    {
+        return langIndex >= 16;
+    }
 }

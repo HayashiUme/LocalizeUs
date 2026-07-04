@@ -1,0 +1,25 @@
+{
+  "Data": {
+    "Type": "announcements",
+    "Attributes": {
+      "announcements": [
+        {
+          "Id": "localizeus_pl_1",
+          "Language": 21,
+          "Number": 1,
+          "Title": "LocalizeUs — Polskie Tłumaczenie!",
+          "SubTitle": "Mod LocalizeUs został zainstalowany",
+          "ShortTitle": "LocalizeUs — Polski",
+          "PinState": false,
+          "Text": "Dziękujemy za zainstalowanie moda LocalizeUs! Ten mod dodaje obsługę języka polskiego do Among Us, a także kilka innych języków, takich jak turecki, szwedzki, litewski, czeski, chiński klasyczny i grecki. Ciesz się grą w swoim ojczystym języku!",
+          "Date": "2025-06-01T00:00:00Z"
+        }
+      ],
+      "page": 0,
+      "pages": 1
+    },
+    "Timestamp": "2025-06-01T00:00:00Z"
+  },
+  "Errors": [],
+  "Warnings": []
+}

@@ -1,0 +1,25 @@
+{
+  "Data": {
+    "Type": "announcements",
+    "Attributes": {
+      "announcements": [
+        {
+          "Id": "localizeus_lt_1",
+          "Language": 24,
+          "Number": 1,
+          "Title": "LocalizeUs — Lietuviškas Vertimas!",
+          "SubTitle": "LocalizeUs modifikacija įdiegta",
+          "ShortTitle": "LocalizeUs — Lietuvių",
+          "PinState": false,
+          "Text": "Ačiū, kad įdiegėte LocalizeUs modifikaciją! Ši modifikacija prideda lietuvių kalbos palaikymą prie Among Us, taip pat keletą kitų kalbų, pvz., lenkų, turkų, švedų, čekų, klasikinę kinų ir graikų. Mėgaukitės žaidimu savo gimtąja kalba!",
+          "Date": "2025-06-01T00:00:00Z"
+        }
+      ],
+      "page": 0,
+      "pages": 1
+    },
+    "Timestamp": "2025-06-01T00:00:00Z"
+  },
+  "Errors": [],
+  "Warnings": []
+}

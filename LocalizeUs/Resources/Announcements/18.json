@@ -1,0 +1,25 @@
+{
+  "Data": {
+    "Type": "announcements",
+    "Attributes": {
+      "announcements": [
+        {
+          "Id": "localizeus_sv_1",
+          "Language": 23,
+          "Number": 1,
+          "Title": "LocalizeUs — Svensk Översättning!",
+          "SubTitle": "LocalizeUs-modden har installerats",
+          "ShortTitle": "LocalizeUs — Svenska",
+          "PinState": false,
+          "Text": "Tack för att du installerade LocalizeUs-modden! Denna mod lägger till svenskt språkstöd till Among Us, samt flera andra språk som polska, turkiska, litauiska, tjeckiska, klassisk kinesiska och grekiska. Njut av spelet på ditt modersmål!",
+          "Date": "2025-06-01T00:00:00Z"
+        }
+      ],
+      "page": 0,
+      "pages": 1
+    },
+    "Timestamp": "2025-06-01T00:00:00Z"
+  },
+  "Errors": [],
+  "Warnings": []
+}

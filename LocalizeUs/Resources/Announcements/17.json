@@ -1,0 +1,25 @@
+{
+  "Data": {
+    "Type": "announcements",
+    "Attributes": {
+      "announcements": [
+        {
+          "Id": "localizeus_tr_1",
+          "Language": 22,
+          "Number": 1,
+          "Title": "LocalizeUs — Türkçe Çeviri!",
+          "SubTitle": "LocalizeUs modu yüklendi",
+          "ShortTitle": "LocalizeUs — Türkçe",
+          "PinState": false,
+          "Text": "LocalizeUs modunu yüklediğiniz için teşekkür ederiz! Bu mod, Among Us'a Türkçe dil desteğinin yanı sıra Lehçe, İsveççe, Litvanca, Çekçe, Klasik Çince ve Yunanca gibi birkaç dil daha ekler. Oyunu kendi ana dilinizde oynayın!",
+          "Date": "2025-06-01T00:00:00Z"
+        }
+      ],
+      "page": 0,
+      "pages": 1
+    },
+    "Timestamp": "2025-06-01T00:00:00Z"
+  },
+  "Errors": [],
+  "Warnings": []
+}

@@ -1,0 +1,25 @@
+{
+  "Data": {
+    "Type": "announcements",
+    "Attributes": {
+      "announcements": [
+        {
+          "Id": "localizeus_el_1",
+          "Language": 27,
+          "Number": 1,
+          "Title": "LocalizeUs — Ελληνική Μετάφραση!",
+          "SubTitle": "Το mod LocalizeUs έχει εγκατασταθεί",
+          "ShortTitle": "LocalizeUs — Ελληνικά",
+          "PinState": false,
+          "Text": "Σας ευχαριστούμε για την εγκατάσταση του mod LocalizeUs! Αυτό το mod προσθέτει υποστήριξη ελληνικής γλώσσας στο Among Us, καθώς και αρκετές άλλες γλώσσες όπως Πολωνικά, Τουρκικά, Σουηδικά, Λιθουανικά, Τσεχικά, Κλασικά Κινεζικά και Ελληνικά. Απολαύστε το παιχνίδι στη μητρική σας γλώσσα!",
+          "Date": "2025-06-01T00:00:00Z"
+        }
+      ],
+      "page": 0,
+      "pages": 1
+    },
+    "Timestamp": "2025-06-01T00:00:00Z"
+  },
+  "Errors": [],
+  "Warnings": []
+}
