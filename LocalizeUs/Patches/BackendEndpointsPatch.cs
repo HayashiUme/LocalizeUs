@@ -7,23 +7,22 @@ namespace LocalizeUs.Patches;
 public static class BackendEndpointsPatch
 {
     [HarmonyPatch(typeof(BackendEndpoints), "get_Announcements")]
-    [HarmonyPrefix]
-    public static void Prefix(ref string __result)
+    [HarmonyPostfix]
+    public static bool Postfix(ref string __result)
     {
         if (!HelperUtils.IsCustomLanguage((int)DataManager.Settings.Language.CurrentLanguage))
         {
-            Info("Checked to vanilla language, Skip");
-            return;
+            return true;
         }
 
         __result = GetAnnouncementUrl(DataManager.Settings.Language.CurrentLanguage);
+        return false;
     }
 
     public static string GetAnnouncementUrl(SupportedLangs lang)
     {
-        var langId = (int)HelperUtils.ToCustom(lang);
-        var url = "";
-        Info($"Current Language = {HelperUtils.ToCustom(lang)}, Url=https://raw.githubusercontent.com/HayashiUme/LocalizeUs/refs/heads/main/LocalizeUs/Resources/Announcements/{langId}.json");
-        return $"https://raw.githubusercontent.com/HayashiUme/LocalizeUs/refs/heads/main/LocalizeUs/Resources/Announcements/{langId}.json";
+        CustomLocale.LangCodesList.TryGetValue(HelperUtils.ToCustom(lang),out string langName);
+        Info($"Current Language = {HelperUtils.ToCustom(lang)}, Url=https://raw.githubusercontent.com/HayashiUme/LocalizeUs/refs/heads/main/LocalizeUs/Resources/Announcements/{langName}.json");
+        return $"https://raw.githubusercontent.com/HayashiUme/LocalizeUs/refs/heads/main/LocalizeUs/Resources/Announcements/{langName}.json";
     }
 }

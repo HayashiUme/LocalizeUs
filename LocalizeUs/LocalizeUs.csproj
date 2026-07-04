@@ -15,10 +15,6 @@
         <EmbeddedResource Include="Resources\**\*.*"/>
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Announcements\" />
-    </ItemGroup>
-
     <Import Project="../AmongUs.props"/>
 
     <Target Name="Copy" AfterTargets="Build" Condition="'$(AmongUs)' != ''">
